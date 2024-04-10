@@ -7,7 +7,7 @@ using static System.Console;
 using static System.Array;
 using System.Diagnostics;
 
-namespace IFN564___Assignment_1_draft
+namespace case_study_queues
 {
     class Program
     {
@@ -100,10 +100,10 @@ namespace IFN564___Assignment_1_draft
             availableBikes.ToString();
 
             WriteLine("\n################## Enqueue Customers ##################################\n");
-            waitingCustomers.Enqueue("Tanya", "Jones", "0401123456");
-            waitingCustomers.Enqueue("Abra", "Cadabra", "043216546");
-            waitingCustomers.Enqueue("Greg", "Rankin", "0401123456");
-            waitingCustomers.Enqueue("Andy", "Jones", "0401123456");
+            waitingCustomers.Enqueue("Jane", "Smith", "04123456789");
+            waitingCustomers.Enqueue("Abra", "Cadabra", "04123456788");
+            waitingCustomers.Enqueue("Mog", "Boggle", "04123456787");
+            waitingCustomers.Enqueue("Egg", "Jones", "04123456786");
             WriteLine("\n#################### View Customers waiting #################\n");
 
             waitingCustomers.ToString();
